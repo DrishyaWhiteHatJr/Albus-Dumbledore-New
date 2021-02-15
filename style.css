@@ -1,0 +1,102 @@
+body{
+  text-align: center;
+  color: #FFE0B2;
+     background: linear-gradient( #FF8A65 0%, #FF5722 50%);
+  background-repeat: no-repeat;
+}
+img{
+  border-radius: 50%;
+  height: 250px;
+}
+#quote{
+  font-style: italic;
+}
+
+#heading{
+    background: linear-gradient( #FF8A65 0%, #FF5722 50%);
+  background-repeat: no-repeat;
+}
+
+#about{
+    background: linear-gradient(azure 0%, darkcyan 100%);
+  background-repeat: no-repeat;
+    color: navy;
+    height: auto;
+    height: 300px;
+    font-size: 20;
+}
+
+h1{
+    font-size: 30;
+}
+
+.menu{
+   list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 100px;
+    margin: 8px auto;
+}
+
+.link{
+    color: #FFE0B2;
+    font-family:fantasy;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    float: left;
+    font-size: 14;
+}
+
+.menu{
+    font-family:fantasy;
+    position:absolute;
+    top: 10px;
+    left: 30 px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.link:hover{
+    background-color: dodgerblue;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#appearencesec{
+    text-align: center;
+}
+
+#wikipedialink{
+    font-size: 25;
+}
+
+#wikipedialink:hover{
+    background-color: darkorange;
+}
+
+.line{
+    width: 200px;
+    height: 5px;
+    background-color: black;
+}
+
+#jkrowlingimg{
+    border-radius: 0;
+    
+}
+
+#jkrowlingim:hover{
+    
+}
